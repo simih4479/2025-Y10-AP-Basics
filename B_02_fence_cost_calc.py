@@ -26,10 +26,10 @@ while keep_going == "":
      # Get width and height
      width = num_check("Width: ")
      height = num_check("Height: ")
-     cost =
+     cost = num_check("Cost: ")
      # calculate perimeter/price for the fence
      perimeter = 2 * (width + height)
-     price =
+     price = perimeter * cost 
      # Display output
      print()
      print(f"perimeter: {perimeter} units")
